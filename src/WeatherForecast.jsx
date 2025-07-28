@@ -1,10 +1,11 @@
 
-//this step editing
+//File updated
 const WeatherForecast = ({ day, img, imgAlt, conditions, time }) => (
-  <div className="weather-forecast">
+  <div className="weather">
     <h2>{day}</h2>
     <img src={img} alt={imgAlt} />
-    <p>{conditions} {time}</p>
+    <p><span>conditions: </span>{conditions}</p>
+    <p><span>time: </span>{time}</p>
   </div>
 );
 

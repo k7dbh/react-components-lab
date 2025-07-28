@@ -45,7 +45,7 @@ return (
   <section>
     {weatherForecasts.map((forecast, id) => {
       return (
-      <weatherForcast
+      <WeatherForecast   //spelling mistake corrected
       key={id}
       day={forecast.day}
       img={forecast.img}
@@ -54,6 +54,7 @@ return (
       time={forecast.time}
       />);
     })}
+
   </section>
   </>
 );
